@@ -121,7 +121,45 @@
                  </div>
              </div>  
 
-           
+             <div class="card w-100 mt-5 mb-5">
+                    <div class="card-body">
+                      <h5 class="card-title fs-4 text-warning"><b>Through How Many Ways We Can Get <span class="text-info"> undefined </span>  in JavaScript??</b></h5>
+                      <p class="card-text fs-5">
+                         <b class="fs-5">Below the reasons of getting undefined in Javascript-</b><br><br>
+                         <b class="text-success">(1). When you declare a variable and don’t initialize it to a value, 
+                          the variable will have a value of undefined. </b><span class="text-info"><b>For example:</b></span><br>
+                          <span class="text-danger">
+                                let counter;<br>
+                               console.log(counter); // undefined<br></span>
+                        <b class="text-success"> (2). A method or statement also returns undefined if the variable that is being 
+                          evaluated does not have an assigned value.</b><br>
+                        <b class="text-success"> (3). If you access a non-existing property of an object, you’ll 
+                          get undefined.</b>  <span class="text-info"><b>For example: </b></span><br>
+                          <span class="text-danger">
+                          let counter = { <br>
+                            current: 0 <br>
+                         };<br>
+                         console.log(counter.max); // undefined<br></span>
+                      <b class="text-success">(4). A function that doesn’t have a return statement 
+                          implicitly returns undefined.</b> <span class="text-info"><b>For example: </b></span><br>
+                          <span class="text-danger">
+                          const log = (message) => { <br>
+                            const time = (new Date()).toLocaleTimeString();<br>
+                            console.log(`${time}: ${message}`);<br>
+                          };<br>
+                          
+                          const result = log('Hi');<br>
+                          console.log(result); // undefined<br></span>
+                        <b class="text-success"> (5). When you access an array element that is out-of-bounds,
+                          you’ll get the undefined value.</b> <span class="text-info"><b>For example: </b></span><br>
+                          <span class="text-danger">
+                                const colors = ['red', 'green', 'blue'];<br>
+                                console.log(colors[3]); // undefined<br>
+                          </span>
+                      </p>
+                      <a href="https://www.javascripttutorial.net/javascript-undefined/" class="btn btn-primary" target="_blank">Click Here To Read Details</a>
+                 </div>
+             </div>    
 
 
         </header>

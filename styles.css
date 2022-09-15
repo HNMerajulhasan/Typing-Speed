@@ -187,6 +187,26 @@ button {
 
 }
 
+/* blog nav bar design */
+.nav-link{
+  color: aqua;
+  text-decoration: none; 
+  background-color:gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+.nav-li{
+  text-align: right;
+  margin-right:50px;
+  margin-top: 23px;
+  
+  list-style: none;
+  font-size: 23px;
+}
+.nav-link:hover{
+  background-color: #eb6565;
+  color:lawngreen;
+}
 
 @media only screen and (max-width: 700px) {
   .box-container {
